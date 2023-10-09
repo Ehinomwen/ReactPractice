@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: inter, sans-seriff;
+  background-color: #12222A;
+}
+nav{
+  display: flex;
+  align-items: center;
+ 
+  padding: 30px 25px;
+  height: 90px;
+}
+img{
+  width: 100px;
+  height: 70px;
+}
+nav > h3, nav > h4{
+  margin: 0;
+}
+nav > h3{
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 20px;
+}
+nav > h4{
+  margin-left: auto;
+  color: #61dafb;
+  font-weight: 600;
+  
+} 
+ .logo{
+  margin-left: 10px;
+} 
+main{
+  padding: 57px 27px;
+  color: white;
+  background-color: #1a3640;
+  background-image: url(./food1.jpg);
+  background-repeat: no-repeat;
+  background-position:right 75% ;
+  /* background-position-x:right ; */
+  /* background-position-y:center ; */
+}
+.main--title{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  font-family: inter;
+  font-style: normal;
+}
+.main--fact{
+  margin-top: 40px;
+}
+.main--fact > li{
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
+  
+}
+
+.main--fact > li::marker{
+  font-size: 25px;
+  color: #61dafb;
+}
